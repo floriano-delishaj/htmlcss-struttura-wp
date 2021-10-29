@@ -22,6 +22,7 @@ header, .yellow {
 header {
     height: 100px;
     background: pink;
+    margin-top: 25px;
 }
 
 .yellow {
@@ -31,7 +32,6 @@ header {
 
 main {
     background: blue;
-    height: 625px;
     width: 100%;
 }
 
@@ -39,7 +39,10 @@ main {
     background: steelblue;
     height: 80px;
     width: 100%;
-    margin-bottom: 25px;
+}
+
+.row {
+    padding: 2% 0;
 }
 
 .sidebar {
@@ -58,11 +61,11 @@ main {
     background: steelblue;
     width: 50%;
     height: 495px;
-    margin: 0 2%;;
+    margin: 0 2%;
 }
 
 footer {
-    height: 50px;
+    height: 70px;
     width: 100%;
     background: purple;
     margin-top: 10px;
